@@ -14,9 +14,5 @@ module.exports = {
         pass: undefined
     }
  },
- SECRET_KEY_CRYPTO: undefined, // secret key for crypto library
- blobAccessToken:{ // Blob access information: {sasToken:<token>,blobAccountUrl: 'https://<blob_name>.blob.core.windows.net/'}
-    sasToken: undefined,
-    blobAccountUrl: undefined,
-  }
+ SECRET_KEY_CRYPTO: undefined // secret key for crypto library
 }
